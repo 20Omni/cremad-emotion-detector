@@ -1,0 +1,25 @@
+# core
+numpy
+pandas
+scikit-learn
+xgboost
+lightgbm
+joblib
+librosa
+soundfile
+scipy
+
+# website
+fastapi
+uvicorn
+python-multipart
+
+# pretrained model (funasr needs torch)
+funasr
+modelscope
+torch
+torchaudio
+
+# only for tools/generate_tts_testset.py
+python-dotenv
+elevenlabs
