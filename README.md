@@ -42,7 +42,7 @@ First start downloads the emotion2vec+ model (about 1 GB). Set `E2V_VARIANT=base
 - `server.py`, `web\index.html` : website and API
 - `src\emotion_predictor.py`, `models\` : baseline ensemble (frozen)
 - `src\feature_extraction_v3.py`, `src\ensemble_v3_three_models.py` : how the baseline was built
-- `emotion2vec_test.py`, `eval_tts.py`, `diagnose_features.py`, `noise_test.py` : evaluation and diagnosis
+- `evaluation\` : `emotion2vec_test.py`, `eval_tts.py`, `diagnose_features.py`, `noise_test.py`. Run them from the project root, e.g. `python evaluation\emotion2vec_test.py "path\to\emotion_test"`
 - `tools\generate_tts_testset.py` : makes the multi-voice TTS test set (needs your own ElevenLabs key in `.env`)
 
 ## Limits
